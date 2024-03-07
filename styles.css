@@ -139,7 +139,6 @@ button {
     height: 66px;
 }
 .quote {
-    height: 450px;
     background-color: rgb(229, 228, 228);
 }
 .quote-text {
@@ -147,9 +146,9 @@ button {
     font-size: 45px;
     font-weight: lighter;
     font-style: italic;
-    padding-top:  100px;
-    margin-left: 140px;
-    margin-right: 140px;
+    padding-top:  2em;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
 .quote-author {
