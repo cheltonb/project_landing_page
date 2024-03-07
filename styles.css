@@ -158,6 +158,7 @@ button {
     display: flex;
     justify-content: flex-end;
     margin-right: 200px;
+    padding-bottom: 100px;
 }
 .call-to-action {
     height: 165px;
@@ -176,7 +177,8 @@ button {
 }
 .cta-item {
     text-align: left;
-    padding-top: 69px;
+    padding-top: 60px;
+    padding-left: 30px;
 }
    .cta-text {
     font-weight: bold;
@@ -187,6 +189,7 @@ button {
     font-weight: bold;
     width: 120px;
     align-self: center;
+    padding-right: 30px;
 }
 
 .footer {
