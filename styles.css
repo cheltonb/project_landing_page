@@ -1,8 +1,7 @@
 * {
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .header-container {
     background-color: rgb(38, 49, 60);
     color: white;
@@ -27,7 +26,7 @@
 }
 
 .header-link {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: lighter;
     display: flex;
     justify-content: flex-end;
@@ -64,11 +63,12 @@
     border: 1px solid black;
 }
 .subtext {
-    font-size: 14px;
+    font-size: 16px;
     width: 375px;
     font-weight: lighter;
     margin: 10px;
     border: 1px solid black;
+    font-family:  "Roboto";
 
 }
 button {
@@ -102,7 +102,7 @@ button {
     border: 1px solid black;
 }
 .container1 {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(248, 249, 243);
     padding: 40px;
     border: 1px solid black;
 }
@@ -112,12 +112,13 @@ button {
     font-size: 40px;
     font-weight: bold;
     border: 1px solid black;
+    
 }
 
 .photos {
     height: 184px;
     padding: 16px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(248, 249, 243);
     display: flex;
     justify-content: center;
     gap: 48px;
@@ -132,11 +133,12 @@ button {
     height: 150px;
     border: 3px solid blue;
     border-radius: 10px;
+    background-color: rgb(248, 249, 243);
 }
 
 .photo-text {
     height: 115px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(248, 249, 243);
     display: flex;
     justify-content: center;
     gap: 48px;
@@ -153,4 +155,32 @@ button {
     width: 150px;
     height: 66px;
     border: 1px solid black;
+}
+.quote {
+    height: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 220px;
+    padding-right: 220px;
+    background-color: rgb(229, 228, 228);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.quote-text {
+    text-align: left;
+    font-size: 39px;
+    font-weight: lighter;
+    font-style: italic;
+    border: 1px solid black;
+}
+
+.quote-author {
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 732px;
 }
