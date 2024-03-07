@@ -8,7 +8,6 @@
     display: flex;
     justify-content: left;
     padding: 20px 0;
-    border: 1px solid black;
 }
 
 .header {
@@ -22,7 +21,6 @@
     justify-content: flex-start;
     padding-left: 150px;
     padding-right: 150px;
-    border: 1px solid black;
 }
 
 .header-link {
@@ -33,7 +31,6 @@
     padding-right: 110px;
     padding-left: 30px;
     gap: 24px;
-    border: 1px solid black;
 }
 
 .menu-container {
@@ -45,13 +42,11 @@
     color: white;
     padding: 50px;
     padding-left: 140px;
-    border: 1px solid black;
 }
 
 .menu-item {
     width: 425px;
     height: 275px;
-    border: 1px solid black;
    
 }
 .text {
@@ -60,14 +55,12 @@
     font-weight: bold;
     text-wrap: wrap;
     margin: 10px;
-    border: 1px solid black;
 }
 .subtext {
     font-size: 16px;
     width: 375px;
     font-weight: lighter;
     margin: 10px;
-    border: 1px solid black;
     font-family:  "Roboto";
 
 }
@@ -76,7 +69,7 @@ button {
     height: 3em;
     font-weight: bold;
     background-color: blue;
-    border: blue;
+    border: 1px solid white;
     color: white;
     margin: 10px;
     border-radius: 10px;
@@ -90,7 +83,6 @@ button {
     padding-bottom: 20px;
     padding-left: 100px;
     padding-right: 110px;
-    border: 1px solid black;
 }
 
 .img-txt {
@@ -99,30 +91,25 @@ button {
     background-color: rgb(104, 112, 116);
     border-color: solid rgb(104, 112, 116);
     padding: 100px;
-    border: 1px solid black;
 }
 .container1 {
-    background-color: rgb(248, 249, 243);
+    background-color: rgb(255, 255, 255);
     padding: 40px;
-    border: 1px solid black;
 }
 
 .random-text {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-    border: 1px solid black;
-    
-}
+    }
 
 .photos {
     height: 184px;
     padding: 16px;
-    background-color: rgb(248, 249, 243);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     gap: 48px;
-    border: 1px solid black;
 }
 
 .photo1,
@@ -131,18 +118,17 @@ button {
 .photo4 {
     width: 150px;
     height: 150px;
-    border: 3px solid blue;
+    border: 3px solid rgb(0, 115, 255);
     border-radius: 10px;
-    background-color: rgb(248, 249, 243);
+    background-color: rgb(255, 255, 255);
 }
 
 .photo-text {
     height: 115px;
-    background-color: rgb(248, 249, 243);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     gap: 48px;
-    border: 1px solid black;
 }
 
 .text-container1,
@@ -154,10 +140,10 @@ button {
     font-size: 14px;
     width: 150px;
     height: 66px;
-    border: 1px solid black;
 }
 .quote {
     height: 400px;
+    width: 1500px;
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 220px;
@@ -165,22 +151,72 @@ button {
     background-color: rgb(229, 228, 228);
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    justify-content: center;
 }
 .quote-text {
     text-align: left;
     font-size: 39px;
     font-weight: lighter;
     font-style: italic;
-    border: 1px solid black;
 }
 
 .quote-author {
-    border: 1px solid black;
     font-size: 20px;
     font-weight: bold;
     width: 250px;
     display: flex;
     justify-content: flex-end;
     margin-left: 732px;
+}
+.call-to-action {
+    height: 350px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 220px;
+    padding-right: 220px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+.cta-item {
+    background-color:  rgb(0, 115, 255);
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+   
+
+.cta-text {
+    width: 300px;
+    font-weight: bold;
+}
+
+.cta-subtext {
+    width: 500px;
+}
+
+.sign-up {
+    font-size: 20px;
+    font-weight: bold;
+    width: 120px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 660px;
+    margin-top: -50px;
+}
+
+.footer {
+    padding: 30px;
+    background-color: rgb(38, 49, 60);
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+    font-size: 14px;
 }
